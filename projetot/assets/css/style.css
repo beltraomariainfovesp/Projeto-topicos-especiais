@@ -1,14 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-.main {
+
+body {
+  margin: 0;
+  box-sizing: border-box;
   background-color: #080c15;
-  width: 1440px;
-  height: 1024px;
   position: relative;
 }
+
 .hero-image img{
-  width: 1050px;
+  width: 1072px;
   height: 1024px;
   margin-left: 458px;
+  /* margin-top: -1025px;
+  margin-left: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+
 }
 
 .contnet{
@@ -131,19 +139,16 @@
   gap: 16px;
 }
 
-.item {
+.item{
   width: 360px;
   height: 101px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: mixed;
+  background-image: linear-gradient(to right,gray,rgba(255, 255, 255, 0));
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
 }
-
-.icone {
-  width: 233px;
-  height: 29px;
+.item:hover{
+  background-color : #cd292a;
+  color: white;
 }
 
 .text {
@@ -153,7 +158,7 @@
   width: 281px;
   height: 29px;
   color: #ffffff;
-  margin-left: 100px;
-  margin-top: 10px;
+  margin-left: 35px;
+  margin-top: 35px;
+  text-align: center;
 }
-
