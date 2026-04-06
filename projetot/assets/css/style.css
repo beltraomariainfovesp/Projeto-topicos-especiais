@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   background-color: #080c15;
   position: relative;
@@ -11,11 +12,6 @@ body {
   width: 1072px;
   height: 1024px;
   margin-left: 458px;
-  /* margin-top: -1025px;
-  margin-left: 460px;
-  display: flex;
-  align-items: center;
-  justify-content: center; */
 
 }
 
@@ -107,7 +103,6 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 40px;
-  gap: 10px;
   margin-top: 34px;
   cursor: pointer;
 }
@@ -115,7 +110,6 @@ body {
 .primary-button:hover {
   background-color: #ffffff;
   color: #cd292a;
-
 }
 
 .midle-line {
