@@ -8,14 +8,13 @@ body {
   position: relative;
 }
 
-.hero-image img{
+.hero-image img {
   width: 1072px;
   height: 1024px;
   margin-left: 458px;
-
 }
 
-.contnet{
+.contnet {
   width: 539px;
   height: 582px;
   margin-left: 100px;
@@ -133,15 +132,15 @@ body {
   gap: 16px;
 }
 
-.item{
+.item {
   width: 360px;
   height: 101px;
-  background-image: linear-gradient(to right,gray,rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to right, gray, rgba(255, 255, 255, 0));
   border-top-left-radius: 70px;
   border-bottom-left-radius: 70px;
 }
-.item:hover{
-  background-color : #cd292a;
+.item:hover {
+  background-color: #cd292a;
   color: white;
 }
 
